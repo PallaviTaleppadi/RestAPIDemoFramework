@@ -1,0 +1,150 @@
+09:34:09.705 [main] INFO  com.api.listeners.TestListener - Test Suite started! 
+09:34:12.997 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+09:34:13.653 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+09:34:15.415 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+10:03:22.591 [main] INFO  com.api.listeners.TestListener - Test Suite started! 
+10:03:25.472 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+10:03:26.155 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+10:03:27.932 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+10:04:50.842 [main] INFO  com.api.listeners.TestListener - Test Suite started! 
+10:04:53.645 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+10:04:54.362 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+10:11:19.027 [main] INFO  com.api.listeners.TestListener - Test Suite started! 
+10:11:20.275 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:11:20.275 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+10:11:20.276 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad:{"username":"uday1234","password":"uday12345"}
+10:11:21.374 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+10:11:21.375 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Feb 2025 18:11:21 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+10:11:21.424 [main] INFO  com.api.filters.LoggingFilter - Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTczOTIxMTA4MSwiZXhwIjoxNzM5MjE0NjgxfQ.v0minBbmwI2vNt5fkZ7nWgcLvodCoymE8uRGA-fez9U",
+    "type": "Bearer",
+    "id": 1,
+    "username": "uday1234",
+    "email": "disha1234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+10:11:21.479 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:11:21.479 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTczOTIxMTA4MSwiZXhwIjoxNzM5MjE0NjgxfQ.v0minBbmwI2vNt5fkZ7nWgcLvodCoymE8uRGA-fez9U
+Accept=*/*
+10:11:21.479 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad:null
+10:11:22.048 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+10:11:22.049 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Feb 2025 18:11:22 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+10:11:22.057 [main] INFO  com.api.filters.LoggingFilter - Request Body:{
+    "id": 1,
+    "username": "uday1234",
+    "email": "disha1234@gmail.com",
+    "firstName": "Disha",
+    "lastName": "Bhat",
+    "mobileNumber": "7777777771"
+}
+10:11:22.072 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+10:11:22.086 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:11:22.086 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+10:11:22.087 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad:{"username":"uday1234","password":"uday12345"}
+10:11:22.729 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+10:11:22.729 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Feb 2025 18:11:22 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+10:11:22.734 [main] INFO  com.api.filters.LoggingFilter - Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTczOTIxMTA4MiwiZXhwIjoxNzM5MjE0NjgyfQ.sX_NxaL4LucQsTUvXGbigwRxWJw5QoNQO_BhmTbxxUE",
+    "type": "Bearer",
+    "id": 1,
+    "username": "uday1234",
+    "email": "disha1234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+10:11:22.752 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
+14:20:29.945 [main] INFO  com.api.listeners.TestListener - Test Suite started! 
+14:20:31.194 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+14:20:31.194 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+14:20:31.194 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad:{"username":"uday1234","password":"uday12345"}
+14:20:32.235 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+14:20:32.235 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 10 Feb 2025 22:20:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:20:32.281 [main] INFO  com.api.filters.LoggingFilter - Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTczOTIyNjAzMiwiZXhwIjoxNzM5MjI5NjMyfQ.3h7e9RGmCwxxEXGi9FR6O56nD0R2q_KuCepBaUckY6I",
+    "type": "Bearer",
+    "id": 1,
+    "username": "uday1234",
+    "email": "disha1234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:20:32.328 [main] INFO  com.api.listeners.TestListener - Test Suite completed! 
